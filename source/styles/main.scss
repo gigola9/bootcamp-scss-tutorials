@@ -1,6 +1,5 @@
 $color-1: #21C2F8;
 $color-2: #FFF;
-$color-3: #222533;
 
 *{
     box-sizing: border-box;
@@ -15,9 +14,9 @@ body{
     padding-left: 50px;
 }  
 
+
 .row{
     display: flex;
-    align-items: flex-end;
 
     .btn{
         margin-right: 30px;
@@ -30,33 +29,27 @@ body{
 
 .btn{
     background-color: $color-1;
-    padding: 11px 36.1px 11px 36.2px;
+    width: 270px;
+    height: 80px;
     color: $color-2;
-    text-decoration: none;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
     border: none;
     letter-spacing: 0.2px;
+    border-radius: 3px;
 
-    &:hover{
-        background-color: $color-3;
-        cursor: pointer;
-    }
-
-    &.medium{
-        padding: 14px 47px;
-        font-size: 18px;
+    &.b7{
+        border-radius: 7px;
     }
      
-    &.large{
-        padding: 23px 93px;
-        font-size: 26px;
+    &.b12{
+        border-radius: 12px;
     }
 
-    &.x-large{
-        padding: 27px 100px 27px 102px;
-        font-size: 36px;
+    &.b20{
+        border-radius: 20px;
     }
 }
