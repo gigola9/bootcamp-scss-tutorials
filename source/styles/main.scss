@@ -1,5 +1,12 @@
-$color-1: #21C2F8;
-$color-2: #FFF;
+$color-0: #FFF;
+$color-1: #F39705;
+$color-2: #E25611;
+$color-3: #9A2C4A;
+$color-4: #97C200;
+$color-5: #3D4C53;
+$color-6: #62A783;
+$color-7: #F82F54;
+$color-8: #8FC567;
 
 *{
     box-sizing: border-box;
@@ -29,27 +36,42 @@ body{
 
 .btn{
     background-color: $color-1;
-    width: 270px;
-    height: 80px;
-    color: $color-2;
+    width: 120px;
+    height: 40px;
+    color: $color-0;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
+    font-family: 'Lato Black', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 24px;
     border: none;
-    letter-spacing: 0.2px;
-    border-radius: 3px;
+    border-radius: 5px;
+
+    &.b2{
+        background-color: $color-2;
+    }
+    
+    &.b3{
+        background-color: $color-3;
+    }
+
+    &.b4{
+        background-color: $color-4;
+    }
+
+    &.b5{
+        background-color: $color-5;
+    }
+    
+    &.b6{
+        background-color: $color-6;
+    }
 
     &.b7{
-        border-radius: 7px;
-    }
-     
-    &.b12{
-        border-radius: 12px;
+        background-color: $color-7;
     }
 
-    &.b20{
-        border-radius: 20px;
+    &.b8{
+        background-color: $color-8;
     }
 }
