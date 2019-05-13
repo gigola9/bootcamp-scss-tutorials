@@ -1,0 +1,53 @@
+.btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: $color-1;
+    color: $color-0;
+    font-family: 'Lato Black', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    &.b2 {
+        background-color: $color-2;
+    }
+
+    &.b3 {
+        background-color: $color-3;
+    }
+
+    &.b4 {
+        background-color: $color-4;
+    }
+
+    &.b5 {
+        background-color: $color-5;
+    }
+
+    &.b6 {
+        background-color: $color-6;
+    }
+
+    &.b7 {
+        background-color: $color-7;
+    }
+
+    &.b8 {
+        background-color: $color-8;
+    }
+}
+
+.row {
+    display: flex;
+
+    .btn {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
