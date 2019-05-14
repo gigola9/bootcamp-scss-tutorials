@@ -1,16 +1,15 @@
-$palette: (
-    0: #FFFFFF, 
-    1: #F39705, 
-    2: #E25611,  
-    3: #9A2C4A, 
-    4: #97C200, 
-    5: #3D4C53, 
-    6: #62A783, 
-    7: #F82F54, 
+$palette:(
+    0: #FFFFFF,
+    1: #F39705,
+    2: #E25611,
+    3: #9A2C4A,
+    4: #97C200,
+    5: #3D4C53,
+    6: #62A783,
+    7: #F82F54,
     8: #8FC567
 );
- 
-@function color($ind)
-{
+
+@function color($ind) {
     @return map-get($palette, $ind);
 }

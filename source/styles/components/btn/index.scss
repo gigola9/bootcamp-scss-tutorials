@@ -1,10 +1,8 @@
-@import '_size';
+@import 'size';
 
 .btn {
-    width: 120px;
-    height: 40px;
+    padding: 20px 40px 20px 40px;
     border: none;
-    border-radius: 5px;
     background-color: color(1);
     color: color(0);
     font-family: 'Lato Black', sans-serif;
@@ -13,37 +11,70 @@
     line-height: 24px;
     text-transform: uppercase;
 
-    &.b2 {
+    &.medium {
+        padding: 30px 50px 30px 50px;
+    }
+
+    &.large {
+        padding: 35px 70px 35px 70px;
+    }
+
+    &.x-large {
+        padding: 40px 80px 40px 80px;
+    }
+
+    &.radius-5 {
+        border-radius: 5px;
+    }
+
+    &.radius-7 {
+        border-radius: 7px;
+    }
+
+    &.radius-12 {
+        border-radius: 12px;
+    }
+
+    &.radius-17 {
+        border-radius: 17px;
+    }
+
+    &.color1 {
+        background-color: color(1);
+    }
+
+    &.color2 {
         background-color: color(2);
     }
 
-    &.b3 {
+    &.color3 {
         background-color: color(3);
     }
 
-    &.b4 {
+    &.color4 {
         background-color: color(4);
     }
 
-    &.b5 {
+    &.color5 {
         background-color: color(5);
     }
 
-    &.b6 {
+    &.color6 {
         background-color: color(6);
     }
 
-    &.b7 {
+    &.color7 {
         background-color: color(7);
     }
 
-    &.b8 {
+    &.color8 {
         background-color: color(8);
     }
 }
 
 .row {
     display: flex;
+    align-items: flex-end;
 
     .btn {
         margin-right: 30px;
